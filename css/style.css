@@ -7,9 +7,13 @@
     }
 
 .logo {
-    float: left;
-    padding: 14px 40px;
-   }
+    background-image: url(../images/logo-final-white.png);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+}
 
 /* Style the header links */
     .header a {
@@ -51,16 +55,16 @@ body, html {
 
 /* Container for hero image */
 .container {
-    background-image: url(../images/background-image.jpg);
+    background-image: url(../images/background-image-final.jpg);
     height: 100%;
-    opacity: 40%;
     padding: 14px 40px;
+    width: 100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    }
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -82,11 +86,13 @@ body, html {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 30px;
+    color: white;
 }
 
 h2 {
     font-size: 30px;
+    color: white;
     }
 
 button {
